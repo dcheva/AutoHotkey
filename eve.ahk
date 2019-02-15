@@ -6,21 +6,21 @@ BreakV = 0
 	
 SoundPlay %A_WinDir%\Media\Speech On.wav
 
-^+V::
-	Send ^+V
-	SoundPlay %A_WinDir%\Media\Speech On.wav
-	Loop
-	{
-		if (BreakV == 1)
-		{
-			BreakV = 0
-			break 
-		}
-		Send V 
-		Sleep 5678
-		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
-	}
-return
+;^+V::
+;	Send ^+V
+;	SoundPlay %A_WinDir%\Media\Speech On.wav
+;	Loop
+;	{
+;		if (BreakV == 1)
+;		{
+;			BreakV = 0
+;			break 
+;		}
+;		Send {PgDn}
+;		Sleep 5678
+;		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
+;	}
+;return
 
 ^+C::
 	Send ^+C
@@ -32,7 +32,7 @@ return
 			BreakLoop = 0
 			break 
 		}
-		Send {RButton} 
+		Send {LButton} 
 		Sleep 3456
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 	}
@@ -49,7 +49,7 @@ $1::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 1508, 55
+		MouseClick, left, 1508, 77
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
@@ -60,7 +60,7 @@ $2::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 1398, 55
+		MouseClick, left, 1398, 77
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
@@ -71,7 +71,7 @@ $3::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 1288, 55
+		MouseClick, left, 1288, 77
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
@@ -82,7 +82,7 @@ $4::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 1178, 55
+		MouseClick, left, 1178, 77
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
@@ -93,7 +93,7 @@ $5::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 1068, 55
+		MouseClick, left, 1068, 77
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
@@ -104,7 +104,7 @@ $6::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 958, 55
+		MouseClick, left, 958, 77
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
@@ -115,7 +115,7 @@ $7::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 848, 55
+		MouseClick, left, 848, 77
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
@@ -126,7 +126,7 @@ $8::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 738, 55
+		MouseClick, left, 738, 77Ì
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
