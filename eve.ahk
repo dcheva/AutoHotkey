@@ -180,7 +180,7 @@ $^5::
 	if(StopKeys == 0)
 	{
 		MouseGetPos, OrigX, OrigY
-		MouseClick, left, 1666, 84
+		MouseClick, left, 1666, 284
 		SoundPlay %A_WinDir%\Media\Speech Disambiguation.wav
 		MouseMove, %OrigX%, %OrigY%
 	}
