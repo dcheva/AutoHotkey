@@ -8,9 +8,12 @@ global LockedTop := 77
 global LockedLeft := 1508
 global LockedStep := -110
 ;overview position
-global ViewTop := 220
+global ViewTop := 224
 global ViewLeft := 1700
-global ViewStep := 16
+global ViewStep := 17
+;other globals
+global ClickX := 0
+global ClickY := 0
 
 ;functions
 ran(min, max)
@@ -26,12 +29,12 @@ clkView(pos:=1)
 		top := ViewTop + (ViewStep * (pos-1))
 		lft := ViewLeft
 		MouseGetPos, OrigX, OrigY
-		Send, {Ctrl Down}
 		MouseMove, %lft%, %top%
-		MouseClick, left, , 
-		Sleep, 100
+		Send, {Ctrl Down}
 		MouseClick, left, , 
 		Send, {Ctrl Up}
+		Sleep, 100
+		MouseClick, left, , 
 		MouseMove, %OrigX%, %OrigY%
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 	}
@@ -70,6 +73,7 @@ $^+P::Pause, toggle
 ;enable mouse clicker (random time 1-10 sec, current mouse position)
 $^+C::
 	Send, {^+C}
+	MouseGetPos, ClickX, ClickY
 	SoundPlay %A_WinDir%\Media\Windows Pop-up Blocked.wav
 	Loop
 	{
@@ -78,7 +82,9 @@ $^+C::
 			BreakLoop = 0
 			break
 		}
-		MouseClick, left, ,
+		MouseGetPos, OrigX, OrigY
+		MouseClick, left, %ClickX%, %ClickY%
+		MouseMove, %OrigX%, %OrigY%
 		Sleep, % ran(1000, 10000)
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 	}
