@@ -1,0 +1,2 @@
+PgUp::WheelUp
+PgDn::WheelDown

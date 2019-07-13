@@ -4,11 +4,11 @@
 global BreakLoop := 0
 global StopKeys := 1
 ;locked targets position
-global LockedTop := 77
-global LockedLeft := 1508
+global LockedTop := 90
+global LockedLeft := 1520
 global LockedStep := -110
 ;overview position
-global ViewTop := 224
+global ViewTop := 240
 global ViewLeft := 1700
 global ViewStep := 17
 ;other globals
@@ -85,7 +85,7 @@ $^+C::
 		MouseGetPos, OrigX, OrigY
 		MouseClick, left, %ClickX%, %ClickY%
 		MouseMove, %OrigX%, %OrigY%
-		Sleep, % ran(1000, 10000)
+		Sleep, % ran(3000, 6000)
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 	}
 return
