@@ -1,17 +1,17 @@
 ;by cheva
 
 ;vars
-global BreakLoop := 0
-global StopKeys := 1
-;locked targets position
-global LockedTop := 90
-global LockedLeft := 1520
-global LockedStep := -110
 ;overview position
 global ViewTop := 240
 global ViewLeft := 1700
 global ViewStep := 17
+;locked targets position
+global LockedTop := 90
+global LockedLeft := 1520
+global LockedStep := -110
 ;other globals
+global BreakLoop := 0
+global StopKeys := 1
 global ClickX := 0
 global ClickY := 0
 
@@ -178,3 +178,10 @@ $^8::
 	Send, {^8}
 	clkView(8)
 return
+
+$^d::
+		MouseGetPos, OrigX, OrigY
+		MouseClick, Left, 1660, 130, 1, 4, ,
+		MouseMove, %OrigX%, %OrigY%
+		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
+return	

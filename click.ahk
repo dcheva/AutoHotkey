@@ -50,7 +50,7 @@ X:=240 ; basic margin
 !c::
 	; Place cursor check to eat
 	MouseClick, Left
-	MouseClick, Left, -640, 50, 1, 4, ,R
+	MouseClick, Left, -640, 50, 1, 10, ,R
 	MouseMove, 640, -50, 2, R
 	return
 
