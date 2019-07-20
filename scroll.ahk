@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ;-) click
 F1::LButton
 !F1::RButton
@@ -45,3 +46,7 @@ PgDn::WheelDown
 	; X, Y, Speed, Relative
 	MouseMove, 240, 0, 2, R
 	return
+=======
+PgUp::WheelUp
+PgDn::WheelDown
+>>>>>>> c6e3c0979939a8e0cb60ee7f95e989f7448a964f
