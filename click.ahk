@@ -94,13 +94,25 @@ $^Numpad0::
 		Send, {Space}
 		Sleep, 200
 		Send, {Space}
-		Sleep, 300
+		Sleep, 1000
 		Send, {NumpadDot Up}
 
-   		; подтяжка после подъема / заброс после садка
+   		; заброс после садка
 		Send, {Numpad0 Down}
 		Send, {NumpadEnter Down}
-		Sleep, 7000
+		Sleep, 1000
+		Send, {NumpadEnter Up}
+		Send, {Numpad0 Up}
+		if(break_g == 1)
+			break
+
+		; пауза
+		Sleep, 3000
+
+   		; подтяжка после подъема
+		Send, {Numpad0 Down}
+		Send, {NumpadEnter Down}
+		Sleep, 10000
 		Send, {NumpadEnter Up}
 		Send, {Numpad0 Up}
 		if(break_g == 1)
