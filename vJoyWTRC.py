@@ -5,6 +5,12 @@ class POINT(Structure):
    _fields_ = [("x", c_ulong), ("y", c_ulong)]
    
 if starting:
+
+	Acc1k = 100 
+	Acc2k = 100
+	Brk1k = 100
+	Brk2k = 100
+	
 	Joy_stat = False # данный флаг используется для включения с клавиатуры, передачи данных на джойстик
 	vJoy_Enabled = False # данный флаг используется для временного отключения джойстика мышкой
 	vJoy_Key = Key.CapsLock # кнопка на клавиатуре включающая режим управления джойстика мышкой
@@ -44,7 +50,7 @@ Freeview = mouse.middleButton or mouse.getButton(3) # кнопки на мышк
 
 #vJoy[0].setButton(1,int(keyboard.getKeyDown(Key.Tab))) 
 #vJoy[0].setButton(2,int(keyboard.getKeyDown(Key.LeftAlt))) 
-#vJoy[0].setButton(3,int(keyboard.getKeyDown(Key.LeftControl))) 
+vJoy[0].setButton(3,int(keyboard.getKeyDown(Key.LeftControl))) 
 #vJoy[0].setButton(4,int(keyboard.getKeyDown(Key.LeftShift))) 
 #vJoy[0].setButton(5,int(keyboard.getKeyDown(Key.RightControl))) 
 #vJoy[0].setButton(6,int(keyboard.getKeyDown(Key.RightShift))) 
@@ -62,24 +68,25 @@ Freeview = mouse.middleButton or mouse.getButton(3) # кнопки на мышк
 #vJoy[0].setButton(19,int(keyboard.getKeyDown(Key.NumberPad7)))
 #vJoy[0].setButton(20,int(keyboard.getKeyDown(Key.NumberPad8)))
 #vJoy[0].setButton(21,int(keyboard.getKeyDown(Key.NumberPad9))) 
-#vJoy[0].setButton(22,int(keyboard.getKeyDown(Key.Space)))
+vJoy[0].setButton(22,int(keyboard.getKeyDown(Key.Space)))
 #vJoy[0].setButton(23,int(keyboard.getKeyDown(Key.Q)))
 #vJoy[0].setButton(24,int(keyboard.getKeyDown(Key.W)))
 #vJoy[0].setButton(25,int(keyboard.getKeyDown(Key.E)))
 #vJoy[0].setButton(26,int(keyboard.getKeyDown(Key.R)))
 #vJoy[0].setButton(27,int(keyboard.getKeyDown(Key.T)))
 #vJoy[0].setButton(28,int(keyboard.getKeyDown(Key.Y)))
-##vJoy[0].setButton(29,int(keyboard.getKeyDown(Key.A)))
-##vJoy[0].setButton(30,int(keyboard.getKeyDown(Key.S)))
-#vJoy[0].setButton(31,int(keyboard.getKeyDown(Key.D)))
-#vJoy[0].setButton(32,int(keyboard.getKeyDown(Key.F)))
-#vJoy[0].setButton(33,int(keyboard.getKeyDown(Key.G)))
-#vJoy[0].setButton(34,int(keyboard.getKeyDown(Key.H)))
-##vJoy[0].setButton(35,int(keyboard.getKeyDown(Key.Z)))
-##vJoy[0].setButton(36,int(keyboard.getKeyDown(Key.X)))
-#vJoy[0].setButton(37,int(keyboard.getKeyDown(Key.C)))
-#vJoy[0].setButton(38,int(keyboard.getKeyDown(Key.V)))
-#vJoy[0].setButton(39,int(keyboard.getKeyDown(Key.B)))
+vJoy[0].setButton(29,int(keyboard.getKeyDown(Key.A)))
+vJoy[0].setButton(30,int(keyboard.getKeyDown(Key.S)))
+vJoy[0].setButton(31,int(keyboard.getKeyDown(Key.D)))
+vJoy[0].setButton(32,int(keyboard.getKeyDown(Key.F)))
+vJoy[0].setButton(33,int(keyboard.getKeyDown(Key.G)))
+vJoy[0].setButton(34,int(keyboard.getKeyDown(Key.H)))
+vJoy[0].setButton(35,int(keyboard.getKeyDown(Key.Z)))
+vJoy[0].setButton(36,int(keyboard.getKeyDown(Key.X)))
+vJoy[0].setButton(37,int(keyboard.getKeyDown(Key.C)))
+vJoy[0].setButton(38,int(keyboard.getKeyDown(Key.V)))
+vJoy[0].setButton(39,int(keyboard.getKeyDown(Key.B)))
+vJoy[0].setButton(9,int(keyboard.getKeyDown(Key.N)))
 #vJoy[0].setButton(40,int(keyboard.getKeyDown(Key.Grave)))
 #vJoy[0].setButton(41,int(keyboard.getKeyDown(Key.D1)))
 #vJoy[0].setButton(42,int(keyboard.getKeyDown(Key.D2)))
@@ -157,16 +164,24 @@ if Joy_stat:
 	Brk2 = 0
 	
 	if keyboard.getKeyDown(Key.A):
-		Acc1 = 32768 * 35/100	
+		Acc1 = 32768 * Acc1k/100	
 
 	if keyboard.getKeyDown(Key.S):
-		Acc2 = 32768 * 65/100	
+		Acc2 = 32768 * Acc2k/100	
 
+	if keyboard.getKeyDown(Key.A) and keyboard.getKeyDown(Key.S):
+		Acc1 = 32768
+		Acc2 = 0
+		
 	if keyboard.getKeyDown(Key.Z):
-		Brk1 = 32768 * 35/100	
+		Brk1 = 32768 * Brk1k/100	
 
 	if keyboard.getKeyDown(Key.X):
-		Brk2 = 32768 * 65/100	
+		Brk2 = 32768 * Brk2k/100	
+
+	if keyboard.getKeyDown(Key.Z) and keyboard.getKeyDown(Key.X):
+		Brk1 = 32768
+		Brk2 = 0		
 
 	vJoy[0].ry = -16384 + Acc1 + Acc2
 	vJoy[0].rz = -16384 + Brk1 + Brk2

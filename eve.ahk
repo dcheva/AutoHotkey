@@ -2,11 +2,11 @@
 
 ;vars
 ;overview position
-global ViewTop := 240
+global ViewTop := 205 ; 205 windowed ; 240 fullscreen
 global ViewLeft := 1700
 global ViewStep := 17
 ;locked targets position
-global LockedTop := 90
+global LockedTop := 65 ; 90 windowed ; 65 fullscreen
 global LockedLeft := 1520
 global LockedStep := -110
 ;other globals
@@ -31,9 +31,9 @@ clkView(pos:=1)
 		MouseGetPos, OrigX, OrigY
 		MouseMove, %lft%, %top%
 		Send, {Ctrl Down}
+		Sleep, 100
 		MouseClick, left, , 
 		Send, {Ctrl Up}
-		Sleep, 100
 		MouseClick, left, , 
 		MouseMove, %OrigX%, %OrigY%
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
@@ -58,17 +58,16 @@ clkLocked(pos:=1)
 
 SoundPlay %A_WinDir%\Media\Windows Message Nudge.wav
 
-;controls
 
 ;reload
 $^+R::Reload
-$^C::Reload
 
 ;suspend/resume
 $^+S::Suspend, toggle
 
 ;pause/resume
 $^+P::Pause, toggle
+
 
 ;enable mouse clicker (random time 1-10 sec, current mouse position)
 $^+C::
@@ -181,7 +180,14 @@ return
 
 $^d::
 		MouseGetPos, OrigX, OrigY
-		MouseClick, Left, 1660, 130, 1, 4, ,
+		MouseClick, Left, 1660, 100, 1, 4, , ; fullscreen 100 windowed 130
+		MouseMove, %OrigX%, %OrigY%
+		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
+return	
+
+$^a::
+		MouseGetPos, OrigX, OrigY
+		MouseClick, Left, 1590, 100, 1, 4, , ; fullscreen 100 windowed 130
 		MouseMove, %OrigX%, %OrigY%
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 return	

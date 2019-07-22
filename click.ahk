@@ -1,15 +1,12 @@
-;-) click
-`::LButton
-!`::RButton
-;!2::MButton
+﻿;by cheva
 
-;-) scroll
-!1::WheelUp
-!q::WheelDown
-PgUp::WheelUp
-PgDn::WheelDown
+global X:=240 ; basic margin
 
-X:=240 ; basic margin
+;reload
+$!+R::Reload
+;suspend/resume
+$!+S::Suspend, toggle
+
 
 ;-) clickers
 ; set margin
@@ -46,12 +43,14 @@ X:=240 ; basic margin
 	MouseClick, Left, % 0-X, 0, 1, 4, ,R
 	MouseMove, % X, 0, 2, R
 	return
-; Eater clicks
+;; Eater clicks
+; reload page
 !c::
-	; Place cursor check to eat
-	MouseClick, Left
-	MouseClick, Left, -640, 50, 1, 10, ,R
-	MouseMove, 640, -50, 2, R
+	;; Place cursor check to eat
+	;MouseClick, Left
+	;MouseClick, Left, -640, 50, 1, 10, ,R
+	;MouseMove, 640, -50, 2, R
+	Send {F5}
 	return
 
 ; abort listing
@@ -61,6 +60,56 @@ X:=240 ; basic margin
 	MouseClick, Left, -380, 0, 1, 2, ,R
 	MouseMove, 380, 0, 2, R
 	return
+	
+; Ловилка Р4: Спининг v1.0.2
+$^Numpad0::
+	Loop
+	{
+		; нормально + подъем (подсечка)
+		Send, {Numpad0 Down}
+		Sleep, 7000
+		Send, {Numpad0 Up}
+
+		; пауза
+		Sleep, 3000
+
+		; быстро
+		Send, {Numpad0 Down}
+		Send, {NumpadEnter Down}
+		Sleep, 7000
+		Send, {NumpadEnter Up}
+		Send, {Numpad0 Up}
+
+		; пауза
+		Sleep, 3000
+
+		; нормально
+		Send, {Numpad0 Down}
+		Sleep, 7000
+		Send, {Numpad0 Up}
+
+		; подъем + подсак (или в садок + выход)
+		Send, {NumpadDot Down}
+		Sleep, 2500 ; точное значение для подъема
+		Send, {Space}
+		Sleep, 200
+		Send, {Space}
+		Sleep, 300
+		Send, {NumpadDot Up}
+
+   		; подтяжка после подъема / заброс после садка
+		Send, {Numpad0 Down}
+		Send, {NumpadEnter Down}
+		Sleep, 7000
+		Send, {NumpadEnter Up}
+		Send, {Numpad0 Up}
+		if(break_g == 1)
+			break
+
+		; пауза
+		Sleep, 3000
+}
+return
 
 ;-) suspend, pause and reload
 ^!r::Reload
