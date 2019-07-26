@@ -1,20 +1,17 @@
 ;by cheva
 
-
 ;reload
 $!^R::Reload
 ;suspend/resume
 $!^S::Suspend, toggle
 
-
 ;-) click
-`::LButton
-!`::RButton
-!2::MButton
+Numpad0::LButton
+NumpadDot::MButton
+NumpadEnter::RButton
 
 !1::WheelUp
 !q::WheelDown
-
 
 ;-) Mouse move
 ;$Left::MouseMove, -20, 0, 2, R

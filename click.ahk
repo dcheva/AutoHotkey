@@ -3,10 +3,10 @@
 global X:=240 ; basic margin
 
 ;reload
+$NumpadIns::Reload
 $!+R::Reload
 ;suspend/resume
 $!+S::Suspend, toggle
-
 
 ;-) clickers
 ; set margin
@@ -123,16 +123,3 @@ $^Numpad0::
 }
 return
 
-;-) suspend, pause and reload
-^!r::Reload
-^!p::Pause
-^!s::
-	Suspend, Permit
-	SusToggle := !SusToggle
-	If (SusToggle)
-	{   Suspend, On
-	}
-	Else
-	{   Suspend Off
-	}
-	Return

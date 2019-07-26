@@ -6,11 +6,13 @@ class POINT(Structure):
    
 if starting:
 
-	Acc1k = 100 
-	Acc2k = 100
-	Brk1k = 100
-	Brk2k = 100
-	
+	Acc1k = 60 
+	Acc2k = 80
+	# 1 + 2 -> 100
+	Brk1k = 50
+	Brk2k = 75
+	# 1 + 2 -> 100
+		
 	Joy_stat = False # данный флаг используется для включения с клавиатуры, передачи данных на джойстик
 	vJoy_Enabled = False # данный флаг используется для временного отключения джойстика мышкой
 	vJoy_Key = Key.CapsLock # кнопка на клавиатуре включающая режим управления джойстика мышкой
@@ -48,10 +50,10 @@ Freeview = mouse.middleButton or mouse.getButton(3) # кнопки на мышк
 #Freeview = keyboard.getKeyDown(Key.V) # пример для кнопки на клавиатуре для свободного обзора
 #vJoy[0].setButton(0,mouse.getButton(0)) 
 
-#vJoy[0].setButton(1,int(keyboard.getKeyDown(Key.Tab))) 
-#vJoy[0].setButton(2,int(keyboard.getKeyDown(Key.LeftAlt))) 
+vJoy[0].setButton(1,int(keyboard.getKeyDown(Key.Tab))) 
+vJoy[0].setButton(2,int(keyboard.getKeyDown(Key.LeftAlt))) 
 vJoy[0].setButton(3,int(keyboard.getKeyDown(Key.LeftControl))) 
-#vJoy[0].setButton(4,int(keyboard.getKeyDown(Key.LeftShift))) 
+vJoy[0].setButton(4,int(keyboard.getKeyDown(Key.LeftShift))) 
 #vJoy[0].setButton(5,int(keyboard.getKeyDown(Key.RightControl))) 
 #vJoy[0].setButton(6,int(keyboard.getKeyDown(Key.RightShift))) 
 #vJoy[0].setButton(7,int(keyboard.getKeyDown(Key.Return)))
@@ -69,27 +71,27 @@ vJoy[0].setButton(3,int(keyboard.getKeyDown(Key.LeftControl)))
 #vJoy[0].setButton(20,int(keyboard.getKeyDown(Key.NumberPad8)))
 #vJoy[0].setButton(21,int(keyboard.getKeyDown(Key.NumberPad9))) 
 vJoy[0].setButton(22,int(keyboard.getKeyDown(Key.Space)))
-#vJoy[0].setButton(23,int(keyboard.getKeyDown(Key.Q)))
-#vJoy[0].setButton(24,int(keyboard.getKeyDown(Key.W)))
-#vJoy[0].setButton(25,int(keyboard.getKeyDown(Key.E)))
-#vJoy[0].setButton(26,int(keyboard.getKeyDown(Key.R)))
+vJoy[0].setButton(23,int(keyboard.getKeyDown(Key.Q)))
+vJoy[0].setButton(24,int(keyboard.getKeyDown(Key.W)))
+vJoy[0].setButton(25,int(keyboard.getKeyDown(Key.E)))
+vJoy[0].setButton(26,int(keyboard.getKeyDown(Key.R)))
 #vJoy[0].setButton(27,int(keyboard.getKeyDown(Key.T)))
 #vJoy[0].setButton(28,int(keyboard.getKeyDown(Key.Y)))
-vJoy[0].setButton(29,int(keyboard.getKeyDown(Key.A)))
-vJoy[0].setButton(30,int(keyboard.getKeyDown(Key.S)))
-vJoy[0].setButton(31,int(keyboard.getKeyDown(Key.D)))
+#vJoy[0].setButton(29,int(keyboard.getKeyDown(Key.A)))
+#vJoy[0].setButton(30,int(keyboard.getKeyDown(Key.S)))
+#vJoy[0].setButton(31,int(keyboard.getKeyDown(Key.D)))
 vJoy[0].setButton(32,int(keyboard.getKeyDown(Key.F)))
-vJoy[0].setButton(33,int(keyboard.getKeyDown(Key.G)))
-vJoy[0].setButton(34,int(keyboard.getKeyDown(Key.H)))
-vJoy[0].setButton(35,int(keyboard.getKeyDown(Key.Z)))
-vJoy[0].setButton(36,int(keyboard.getKeyDown(Key.X)))
-vJoy[0].setButton(37,int(keyboard.getKeyDown(Key.C)))
+#vJoy[0].setButton(33,int(keyboard.getKeyDown(Key.G)))
+#vJoy[0].setButton(34,int(keyboard.getKeyDown(Key.H)))
+#vJoy[0].setButton(35,int(keyboard.getKeyDown(Key.Z)))
+#vJoy[0].setButton(36,int(keyboard.getKeyDown(Key.X)))
+#vJoy[0].setButton(37,int(keyboard.getKeyDown(Key.C)))
 vJoy[0].setButton(38,int(keyboard.getKeyDown(Key.V)))
-vJoy[0].setButton(39,int(keyboard.getKeyDown(Key.B)))
-vJoy[0].setButton(9,int(keyboard.getKeyDown(Key.N)))
+#vJoy[0].setButton(39,int(keyboard.getKeyDown(Key.B)))
+#vJoy[0].setButton(9,int(keyboard.getKeyDown(Key.N)))
 #vJoy[0].setButton(40,int(keyboard.getKeyDown(Key.Grave)))
-#vJoy[0].setButton(41,int(keyboard.getKeyDown(Key.D1)))
-#vJoy[0].setButton(42,int(keyboard.getKeyDown(Key.D2)))
+vJoy[0].setButton(41,int(keyboard.getKeyDown(Key.D1)))
+vJoy[0].setButton(42,int(keyboard.getKeyDown(Key.D2)))
 #vJoy[0].setButton(43,int(keyboard.getKeyDown(Key.D3)))
 #vJoy[0].setButton(44,int(keyboard.getKeyDown(Key.D4)))
 #vJoy[0].setButton(45,int(keyboard.getKeyDown(Key.D5)))
