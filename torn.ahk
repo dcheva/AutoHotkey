@@ -42,3 +42,4 @@ $!+S::Suspend, toggle
 	MouseMove, % X, 0, 2, R
 	return
 
+!c::Send, {F5}
