@@ -2,11 +2,6 @@
 
 BS := false
 
-;reload
-$^+R::Reload
-;suspend/resume
-$^+S::Suspend, toggle
-
 $Backspace::
 	if(BS) {
 		BS := false
