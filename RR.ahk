@@ -71,4 +71,7 @@ return
 
 $Numpad5::6
 $Numpad6::Y
-
+$Space::
+	Send, {Space}
+	Send, {Numpad0 Up}
+return

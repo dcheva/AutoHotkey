@@ -13,6 +13,8 @@ $Backspace::
 	}
 return
 
+$!A::Send, {A Down}
+
 $Numpad5:: Send, {Down}
 
 ;-) click
