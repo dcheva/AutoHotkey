@@ -1,4 +1,12 @@
-;by cheva
+; by Cheva (c) 2017-2019
+; ETS/ATS keys
+
+;reload
+$^+R::Reload
+;reload
+$NumpadIns::Reload
+;suspend/resume
+$^+S::Suspend, toggle
 
 BS := false
 
