@@ -6,7 +6,7 @@ git push origin HEAD
 :loop
 IF /I "%1" == "loop" (
   IF /I "%2" GEQ "100" (
-    set gitlog=<git ls-files -m
+    set gitlog=<"git ls-files -m"
     IF /I "%gitlog%" NEQ "" (
       timeout /t "%2"
       git add -A
