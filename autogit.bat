@@ -4,10 +4,10 @@ git pull
 git push origin HEAD
 :loop
 IF /I "%1" == "loop" (
+    timeout /t "%2"
     git add -A
     git commit -am "%date% at%time:~0,2%:%time:~3,2%:%time:~6,2%"
-    git pull
+    ;git pull
     git push origin HEAD
-    timeout /t "%2"
     goto loop
 )
