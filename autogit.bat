@@ -7,8 +7,10 @@ git push origin HEAD
 IF /I "%1" == "loop" (
   IF /I "%2" GEQ "100" (
       git ls-files -m > git.log
-      type git.log
-      set /p gitlog=<git.log
+      set gitlog = ""
+      for /F "delims=" %%a in git.log do (
+        set gitlog =<< "%%a "
+      )
       IF /I "%gitlog%" NEQ "" (
       timeout /t "%2"
       git add -A
