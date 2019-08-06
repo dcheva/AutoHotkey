@@ -9,6 +9,7 @@ IF /I "%1" == "loop" (
     timeout /t "%2"
     git add -A
     git commit -am "%date% at%time:~0,2%:%time:~3,2%:%time:~6,2%"
+    git pull
     git push origin HEAD
     goto loop
 )
