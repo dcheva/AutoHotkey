@@ -4,7 +4,7 @@ git pull
 git push origin HEAD
 :loop
 IF /I "%1" == "loop"  (
-  IF /I "$2" GEQ "100" (
+  IF /I "%2" GEQ "100" (
     timeout /t "%2"
     git add -A
     git commit -am "%date% %time%"
