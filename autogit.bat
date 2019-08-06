@@ -1,10 +1,6 @@
 set datetimef = %date% at%time:~0,2%:%time:~3,2%:%time:~6,2%
 git add -A
-set m = ""
-FOR %%a IN (%*) DO (
-  set m  = %m + a
-)
-git commit -am "%m"
+git commit -am "%1 %2 %3 %4 %5 %6 %7 %8 %9"
 git pull
 git push origin HEAD
 :loop
