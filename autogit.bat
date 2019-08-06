@@ -5,13 +5,10 @@ git pull
 git push origin HEAD
 :loop
 IF /I "%1" == "loop" (
-    ;timeout /t "%2"
-    set gitlog = ""
-    git status --porcelain > git.log
-    for /f %%i in (git.log) do set gitlog = "%gitlog% %%i "
     git add -A
-    git commit -am "%datetimef% %gitlog%"
+    git commit -am "%datetimef%"
     git pull
     git push origin HEAD
+    timeout /t "%2"
     goto loop
 )
