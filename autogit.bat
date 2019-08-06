@@ -1,15 +1,19 @@
+set datetimef=%date:~-4%/%date:~3,2%/%date:~0,2% at %time:~0,2%:%time:~3,2%:%time:~6,2%
 git add -A
 git commit -am "%1 %2 %3 %4 %5 %6 %7 %8 %9"
 git pull
 git push origin HEAD
 :loop
-IF /I "%1" == "loop"  (
+IF /I "%1" == "loop" (
   IF /I "%2" GEQ "100" (
-    timeout /t "%2"
-    git add -A
-    git commit -am "%date% %time%"
-    git pull
-    git push origin HEAD
-    goto loop
+    set gitlog=<git ls-files -m
+    IF /I "%gitlog%" NEQ "" (
+      timeout /t "%2"
+      git add -A
+      git commit -am "%datetimef% %gitlog%"
+      git pull
+      git push origin HEAD
+      goto loop
+    )
   )
 )
