@@ -9,7 +9,7 @@ IF /I "%1" == "loop" (
       git ls-files -m > git.log
       set gitlog = ""
       for /F "delims=" %%a in (git.log) do (
-        set gitlog =<< "%%a "
+        set gitlog="%gitlog% %%a "
       )
       IF /I "%gitlog%" NEQ "" (
       timeout /t "%2"
