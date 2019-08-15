@@ -10,15 +10,23 @@ $!^S::Suspend, toggle
 !`::LButton
 !1::MButton
 !2::RButton
-!q::WheelUp
-!a::WheelDown
+!q Up::
+	Send, {WheelUp}
+return
+!a Up::
+	Send, {WheelDown}
+return
 
 ;-) alter clicks
 ;Insert::LButton
 ;Home::MButton
 ;End::RButton
-PgUp::WheelUp
-PgDn::WheelDown
+PgUp Up::
+	Send, {WheelUp}
+return
+PgDn Up::
+	Send, {WheelDown}
+return
 
 ;-) moves
 ;$Left::MouseMove, -20, 0, 2, R
