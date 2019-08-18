@@ -21,10 +21,10 @@ return
 ;Insert::LButton
 ;Home::MButton
 ;End::RButton
-PgUp Up::
+PgUp::
 	Send, {WheelUp}
 return
-PgDn Up::
+PgDn::
 	Send, {WheelDown}
 return
 

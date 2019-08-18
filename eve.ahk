@@ -1,13 +1,12 @@
-;by cheva
+;by cheva (c) MIT 2017-2019
 
-;vars
 ;overview position
-global ViewTop := 205 ; 205 windowed ; 240 fullscreen
+global ViewTop := 240
 global ViewLeft := 1700
 global ViewStep := 17
 ;locked targets position
-global LockedTop := 65 ; 90 windowed ; 65 fullscreen
-global LockedLeft := 1520
+global LockedTop := 90
+global LockedLeft := 1470
 global LockedStep := -110
 ;other globals
 global BreakLoop := 0
@@ -187,7 +186,7 @@ return
 
 $^a::
 		MouseGetPos, OrigX, OrigY
-		MouseClick, Left, 1590, 100, 1, 4, , ; fullscreen 100 windowed 130
+		MouseClick, Left, 1610, 130, 1, 4, , ; fullscreen 100 windowed 130
 		MouseMove, %OrigX%, %OrigY%
 		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
 return	
