@@ -7,15 +7,15 @@ $!^R::Reload
 $!^S::Suspend, toggle
 
 ; clicks
-!`::LButton
-!1::MButton
-!2::RButton
-!q Up::
-	Send, {WheelUp}
-return
-!a Up::
-	Send, {WheelDown}
-return
+;`::LButton
+;!1::MButton
+;!2::RButton
+;!q Up::
+;	Send, {WheelUp}
+;return
+;!a Up::
+;	Send, {WheelDown}
+;return
 
 ;-) alter clicks
 ;Insert::LButton
