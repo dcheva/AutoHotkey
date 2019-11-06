@@ -4,7 +4,8 @@
 ;reload
 $^+R::Reload
 ;suspend/resume
-$^+S::Suspend, toggle
+$CapsLock::Suspend, toggle
+$^CapsLock::Suspend, toggle
 
 CLK:=false
 
