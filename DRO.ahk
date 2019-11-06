@@ -23,6 +23,7 @@ return
 $Space::
   Send, {RControl Up}
   Send, {Space}
+  Send, {Esc}
   Reload
 return
 
