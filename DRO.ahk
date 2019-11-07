@@ -36,14 +36,14 @@ return
 
 
 
-$LButton::
+$LButton Up::
     CLK:=false
-    Click
+    Send, {LButton Up}
     Sleep, 250
 return 
 
-$^LButton::
+$^LButton Up::
     CLK:=false
-    Click
+    Send, {LButton Up}
     Sleep, 250
 return 
