@@ -24,7 +24,6 @@ return
 $Space::
   Send, {RControl Up}
   Send, {Space}
-  Send, {Esc}
   Reload
 return
 
@@ -36,14 +35,10 @@ return
 
 
 
-$LButton Up::
+$MButton::
     CLK:=false
-    Send, {LButton Up}
-    Sleep, 250
 return 
 
-$^LButton Up::
+$^MButton::
     CLK:=false
-    Send, {LButton Up}
-    Sleep, 250
 return 
