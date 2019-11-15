@@ -4,7 +4,6 @@
 ;reload
 $^+R::Reload
 ;reload
-$NumpadIns::Reload
 ;suspend/resume
 $^+S::Suspend, toggle
 
@@ -25,7 +24,11 @@ $!A::Send, {A Down}
 
 $Numpad5:: Send, {Down}
 
-;-) click
+;-) Click
 Numpad0::LButton
 NumpadDot::MButton
 NumpadEnter::RButton
+
+;-) Scroll
+PgDn::WheelDown
+PgUp::WheelUp

@@ -6,11 +6,11 @@ class POINT(Structure):
    
 if starting:
 
-	Acc1k = 60 
+	Acc1k = 66 
 	Acc2k = 80
 	# 1 + 2 -> 100
-	Brk1k = 50
-	Brk2k = 75
+	Brk1k = 40
+	Brk2k = 66
 	# 1 + 2 -> 100
 		
 	Joy_stat = False # данный флаг используется для включения с клавиатуры, передачи данных на джойстик
