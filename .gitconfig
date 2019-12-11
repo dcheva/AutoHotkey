@@ -4,3 +4,5 @@
 [user]
 	name = Dmytro Cheusov
 	email = d.cheusov@abona-erp.com
+[core]
+	editor = notepad++.exe
