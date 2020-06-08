@@ -1,13 +1,16 @@
+;AHK v1.1.32.00
 ;by cheva (c) MIT 2017-2019
 
 ;overview position
 global ViewTop := 240
 global ViewLeft := 1700
 global ViewStep := 17
+
 ;locked targets position
 global LockedTop := 90
 global LockedLeft := 1470
 global LockedStep := -110
+
 ;other globals
 global BreakLoop := 0
 global StopKeys := 1
@@ -57,7 +60,6 @@ clkLocked(pos:=1)
 
 SoundPlay %A_WinDir%\Media\Windows Message Nudge.wav
 
-
 ;reload
 $^+R::Reload
 
@@ -66,7 +68,6 @@ $^+S::Suspend, toggle
 
 ;pause/resume
 $^+P::Pause, toggle
-
 
 ;enable mouse clicker (random time 1-10 sec, current mouse position)
 $^+C::
