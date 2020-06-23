@@ -178,14 +178,8 @@ $^8::
 	clkView(8)
 return
 
-$^d::
-		MouseGetPos, OrigX, OrigY
-		MouseClick, Left, 1660, 100, 1, 4, , ; fullscreen 100 windowed 130
-		MouseMove, %OrigX%, %OrigY%
-		SoundPlay %A_WinDir%\Media\Windows Navigation Start.wav
-return	
-
-$^a::
+; jump once
+$^+a::
 		MouseGetPos, OrigX, OrigY
 		MouseClick, Left, 1610, 130, 1, 4, , ; fullscreen 100 windowed 130
 		MouseMove, %OrigX%, %OrigY%
