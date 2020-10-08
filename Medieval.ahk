@@ -1,4 +1,4 @@
-;by cheva
+;by Cheva
 
 ;reload
 $^+R::Reload
@@ -7,6 +7,7 @@ $^+S::Suspend, toggle
 
 BS := false
 
+;autorun on/off
 `::
 +`::
 	if(BS) {
