@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+  <!-- graphic options -->
+  <fullscreen>false</fullscreen>
+  <borderless>true</borderless>
+  <antialiasing>msaa_4x</antialiasing>
+  <presentmode>immediate</presentmode>
+  <colorcorrection>1</colorcorrection>
+  <gamma>1.00</gamma>
+  <capturehq>false</capturehq>
+  <gfxquality>0</gfxquality>
+  <!-- high gfx preset -->
+  <shaderquality>1</shaderquality>
+  <shadows>0</shadows>
+  <softshadows>false</softshadows>
+  <ssao>0</ssao>
+  <glow>1</glow>
+  <lodfactor>0.60</lodfactor>
+  <effectdistance>0.60</effectdistance>
+  <distortion>false</distortion>
+  <disableradar>0</disableradar>
+  <radarquality>1</radarquality>
+  <ssr>false</ssr>
+  <ssrquality>low</ssrquality>
+  <texturequality>medium</texturequality>
+  <chromaticaberration>true</chromaticaberration>
+  <!-- sound options -->
+  <nosound>false</nosound>
+  <volumetotal>1.00</volumetotal>
+  <volumemusic>1.00</volumemusic>
+  <volumevoice>1.00</volumevoice>
+  <volumeambient>1.00</volumeambient>
+  <volumeui>1.00</volumeui>
+  <volumeeffects>1.00</volumeeffects>
+  <!-- game options -->
+  <subtitles>true</subtitles>
+  <autosave>true</autosave>
+  <autoroll>true</autoroll>
+  <toggleboost2>false</toggleboost2>
+  <togglemouselook>false</togglemouselook>
+  <rumbleintensity>1.00</rumbleintensity>
+  <aimassist>1</aimassist>
+  <collisionassist>true</collisionassist>
+  <controlmodemessages>false</controlmodemessages>
+  <radarmode>false</radarmode>
+  <stopshipinmenu>false</stopshipinmenu>
+  <forceshootatcursor>false</forceshootatcursor>
+  <fpusecameraforward>false</fpusecameraforward>
+  <separateRadar>0</separateRadar>
+  <speaktargetname>true</speaktargetname>
+  <autosaveintervalfactor>0.50</autosaveintervalfactor>
+  <!-- input options -->
+  <confinemouse>false</confinemouse>
+  <gamepadmode>2</gamepadmode>
+  <tobiimode>combined</tobiimode>
+  <tobiianglefactor>1.00</tobiianglefactor>
+  <tobiigazeanglefactor>0.40</tobiigazeanglefactor>
+  <tobiipositionfactor>1.00</tobiipositionfactor>
+  <tobiideadzoneangle>0.00</tobiideadzoneangle>
+  <tobiideadzoneposition>0.00</tobiideadzoneposition>
+  <tobiigazedeadzone>0.10</tobiigazedeadzone>
+  <tobiifilterstrength>5</tobiifilterstrength>
+  <tobiigazefilterstrength>30</tobiigazefilterstrength>
+  <!-- online options -->
+  <showvisitornames>false</showvisitornames>
+  <ventures>true</ventures>
+  <highlightvisitors>true</highlightvisitors>
+  <!-- privacy options -->
+  <sendcrashreports>true</sendcrashreports>
+  <!-- modified settings -->
+  <chardensity>0.50</chardensity>
+  <cockpitcamerascale>0.00</cockpitcamerascale>
+  <trafficdensity>0.50</trafficdensity>
+  <res_width>1920</res_width>
+  <res_height>1080</res_height>
+  <compress>true</compress>
+  <uiscale>1.1</uiscale>
+  <sounddevice/>
+</root>

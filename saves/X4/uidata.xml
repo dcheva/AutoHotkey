@@ -1,0 +1,1740 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uidata version="1">
+  <data environment="menus">
+__CORE_CHAT_WINDOW = {
+[&quot;openUponStart&quot;]=false,
+[&quot;version&quot;]=1.000000,}
+
+__CORE_DEBUGLOG_LOG = {
+[&quot;lastClear&quot;]={
+[&quot;major&quot;]=3.000000,
+[&quot;minor&quot;]=30.000000,},
+[&quot;version&quot;]=4.000000,
+[&quot;data&quot;]={
+[2.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601679641.000000,},
+[31.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_002', first pass&quot;,
+[&quot;timestamp&quot;]=1601712792.000000,},
+[114.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601726339.000000,},
+[115.000000]={
+[&quot;gamestart&quot;]=7.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601812697.000000,},
+[124.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x188f0842: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[125.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x170ee5a1: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[126.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xa0126ac: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[28.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_003', first pass&quot;,
+[&quot;timestamp&quot;]=1601713449.000000,},
+[127.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x4019079: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[120.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xf06610f: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[121.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xf079eb4: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[122.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x100b4ece: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[29.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 06h 49m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601713450.000000,},
+[123.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x78d2060: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[101.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_002', second pass&quot;,
+[&quot;timestamp&quot;]=1601723854.000000,},
+[7.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_map.lua(15782): IsDockingPossible(): Component 0 does not exist any more&quot;,
+[&quot;timestamp&quot;]=1601683637.000000,},
+[100.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 00h 11m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601723838.000000,},
+[103.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Error: menu.setupInfoSubmenuRows(): called with unsupported mode: .&quot;,
+[&quot;timestamp&quot;]=1601724089.000000,},
+[26.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script fight.attack.object.bigtarget on entity 0x11823df3: Move-to action got a very large position (zone) (16367309.000000 2087.499268 5514802.500000). [Matthias]\
+* Action: &lt;move_to&gt;, line 615&quot;,
+[&quot;timestamp&quot;]=1601714726.000000,},
+[102.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Error: menu.createInfoSubmenu(): Selected component 9060501 of class npc is unsupported. Support?&quot;,
+[&quot;timestamp&quot;]=1601724089.000000,},
+[97.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601720455.000000,},
+[96.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601720448.000000,},
+[99.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_002', first pass&quot;,
+[&quot;timestamp&quot;]=1601723838.000000,},
+[27.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:c868b34&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1601715397.000000,},
+[98.000000]={
+[&quot;gamestart&quot;]=5.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601721302.000000,},
+[108.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:10e67db&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1601722298.000000,},
+[109.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Error: Widget system error. Failed to set initial selected column. Selected-column will not be changed. Error: specified column contains a non-selectable element and hence cannot be selected&quot;,
+[&quot;timestamp&quot;]=1601723342.000000,},
+[110.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_interactmenu.lua(2137): TruncateText(): Invalid argument #1 &lt;text&gt; (got nil, expected string)&quot;,
+[&quot;timestamp&quot;]=1601723752.000000,},
+[24.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:38c0b75&gt;: Error evaluating &lt;event_object_changed_attention&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601713725.000000,},
+[111.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Error: MissionObjective::ConvertToHint(): The player doesn't have a valid Room context! (objective: Назначение)&quot;,
+[&quot;timestamp&quot;]=1601723806.000000,},
+[104.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_001', first pass&quot;,
+[&quot;timestamp&quot;]=1601721369.000000,},
+[105.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 00h 00m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601721370.000000,},
+[326.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: SaveList::TriggerUpdate() - We are already processing the savegame directory. Call will be skipped.&quot;,
+[&quot;timestamp&quot;]=1601956076.000000,},
+[106.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_001', second pass&quot;,
+[&quot;timestamp&quot;]=1601721386.000000,},
+[25.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_move_to_assignment_moving.PerformPath_Walk_Stuck_Check&lt;inst:2a0ea2b1&gt;: 22846.718 NPC 0x4044908 was stuck while walking on S Стандарт Стыковочный отсек&quot;,
+[&quot;timestamp&quot;]=1601714634.000000,},
+[322.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: [ConversationManager::CancelConversation] There is no conversation&quot;,
+[&quot;timestamp&quot;]=1601954720.000000,},
+[107.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\ui\\core\\xanark\\anarkviewbridge.cpp(100): Warning. The current frame was already updated without processing the update event. Check for errors in addon scripts issuing too many update calls.\
+(version: 3.30 - Code revision: 406216)&quot;,
+[&quot;timestamp&quot;]=1601722288.000000,},
+[320.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_003', second pass&quot;,
+[&quot;timestamp&quot;]=1601954643.000000,},
+[334.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:2830e66&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1601997275.000000,},
+[85.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_001', first pass&quot;,
+[&quot;timestamp&quot;]=1601687726.000000,},
+[6.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: MissionObjective::ConvertToHint(): Could not find path to mission target in 'superhighway001_cluster_06_macro'&quot;,
+[&quot;timestamp&quot;]=1601683578.000000,},
+[84.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: SaveList::TriggerUpdate() - We are already processing the savegame directory. Call will be skipped.&quot;,
+[&quot;timestamp&quot;]=1601696568.000000,},
+[342.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0x5825a00: Property lookup failed: $destination.order.id\
+* $destination.order == null\
+* Expression: $destination.isclass.{class.ship_m} and $destination.attention ge attention.visible and $destination.order.id != 'DockAt' and $destination.order.id != 'DockAndWait' and $destination.order.id != 'Undock'\
+* Action: &lt;do_if&gt;, line 754&quot;,
+[&quot;timestamp&quot;]=1602003441.000000,},
+[87.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_001', second pass&quot;,
+[&quot;timestamp&quot;]=1601687742.000000,},
+[338.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0x783f634 - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1602002274.000000,},
+[22.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:70a88ec&gt;: Error evaluating &lt;event_object_changed_attention&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601713725.000000,},
+[86.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 01h 17m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601687726.000000,},
+[350.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_001', second pass&quot;,
+[&quot;timestamp&quot;]=1601990333.000000,},
+[81.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.supply on entity 0x48eed49: Evaluated value 'null' is not of type order\
+* Expression: this.assignedcontrolled.order\
+* Action: &lt;edit_order_param&gt;, line 178&quot;,
+[&quot;timestamp&quot;]=1601693843.000000,},
+[346.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:984b6b2&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1602004684.000000,},
+[344.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Invalid case. GetRelativeAimScreenPosition() was called without the player controlling anything atm. Aborting function call.&quot;,
+[&quot;timestamp&quot;]=1602004073.000000,},
+[80.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_interactmenu.lua(2137): TruncateText(): Invalid argument #1 &lt;text&gt; (got nil, expected string)&quot;,
+[&quot;timestamp&quot;]=1601691436.000000,},
+[83.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: IsUnit(): Failed to retrieve controllable with ID '58760361'&quot;,
+[&quot;timestamp&quot;]=1601696294.000000,},
+[23.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:38c0b75&gt;: Error evaluating &lt;event_object_signalled&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601713725.000000,},
+[82.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.supply on entity 0x48eed49: Invalid attempt to convert ScriptValue null to datatype 'order'\
+* Action: &lt;edit_order_param&gt;, line 178&quot;,
+[&quot;timestamp&quot;]=1601693843.000000,},
+[354.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: CXAnarkController::ChangeUI() - duplicated call to ChangeUI. Fix the incorrect callflow. Pending event 'externalfirstperson' is being replaced with new event 'firstperson'.&quot;,
+[&quot;timestamp&quot;]=1601992056.000000,},
+[93.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\ui\\core\\xanark\\anarkviewbridge.cpp(100): Warning. The current frame was already updated without processing the update event. Check for errors in addon scripts issuing too many update calls.\
+(version: 3.30 - Code revision: 406216)&quot;,
+[&quot;timestamp&quot;]=1601688023.000000,},
+[92.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: SetFrameInteractiveObject(): invalid passed frameID: 2825&quot;,
+[&quot;timestamp&quot;]=1601687937.000000,},
+[95.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601687632.000000,},
+[94.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_map.lua(15782): IsDockingPossible(): Component 0 does not exist any more&quot;,
+[&quot;timestamp&quot;]=1601688211.000000,},
+[20.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_NPC_Killed&lt;inst:a01f0d6&gt;: Error evaluating &lt;event_object_destroyed&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601713725.000000,},
+[89.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:6267d&gt;: Error evaluating &lt;event_object_signalled&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601687759.000000,},
+[88.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_NPC_Killed&lt;inst:6267b&gt;: Error evaluating &lt;event_object_destroyed&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601687759.000000,},
+[91.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:e1769&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1601687808.000000,},
+[266.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in GetActionInfo() call - origin: 1&quot;,
+[&quot;timestamp&quot;]=1601911447.000000,},
+[90.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:6267d&gt;: Error evaluating &lt;event_object_changed_attention&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601687759.000000,},
+[21.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:70a88ec&gt;: Error evaluating &lt;event_object_signalled&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601713725.000000,},
+[270.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.supply on entity 0x17365: Invalid attempt to convert ScriptValue null to datatype 'order'\
+* Action: &lt;edit_order_param&gt;, line 178&quot;,
+[&quot;timestamp&quot;]=1601912696.000000,},
+[70.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.move.follow on entity 0x880d7aa: Evaluated value 'null' is not of type order\
+* Expression: this.ship.defaultorder\
+* Action: &lt;cancel_order&gt;, line 171&quot;,
+[&quot;timestamp&quot;]=1601699754.000000,},
+[256.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\ui\\core\\xanark\\anarkviewbridge.cpp(100): Warning. The current frame was already updated without processing the update event. Check for errors in addon scripts issuing too many update calls.\
+(version: 3.30 - Code revision: 406216)&quot;,
+[&quot;timestamp&quot;]=1601909204.000000,},
+[258.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Found a container without a faction: Запертый контейнер (ZPN-764)&quot;,
+[&quot;timestamp&quot;]=1601909735.000000,},
+[71.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.move.follow on entity 0x880d7aa: Invalid attempt to convert ScriptValue null to datatype 'order'\
+* Action: &lt;cancel_order&gt;, line 171&quot;,
+[&quot;timestamp&quot;]=1601699754.000000,},
+[5.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\ui\\core\\xanark\\anarkviewbridge.cpp(100): Warning. The current frame was already updated without processing the update event. Check for errors in addon scripts issuing too many update calls.\
+(version: 3.30 - Code revision: 406216)&quot;,
+[&quot;timestamp&quot;]=1601681776.000000,},
+[68.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: IsUnit(): Failed to retrieve controllable with ID '17157422'&quot;,
+[&quot;timestamp&quot;]=1601697169.000000,},
+[282.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:f0dad30&gt;: Evaluated value 'null' is not of type component\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 469&quot;,
+[&quot;timestamp&quot;]=1601922436.000000,},
+[69.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.X4Ep1_War_Split.SPLIT_VS_ARG_Create_Contact: Fallback case for not finding suitable sector to place mission contact for Сплиты против Аргона. Placing on 0x100358b ЗЬЯ Спл. Оборонительная платформа in Семья Критт&quot;,
+[&quot;timestamp&quot;]=1601698722.000000,},
+[286.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_Destroy_Objects.GenerateNPCMission_Variant_1&lt;inst:f8eb210&gt;: Invalid space\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 1130&quot;,
+[&quot;timestamp&quot;]=1601922642.000000,},
+[18.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_004', second pass&quot;,
+[&quot;timestamp&quot;]=1601713706.000000,},
+[66.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_02', second pass&quot;,
+[&quot;timestamp&quot;]=1601696633.000000,},
+[274.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_map.lua(15782): IsDockingPossible(): Component 0 does not exist any more&quot;,
+[&quot;timestamp&quot;]=1601913056.000000,},
+[67.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x105bee1: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601696649.000000,},
+[278.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_Destroy_Objects.GenerateNPCMission_Variant_1&lt;inst:80c6494&gt;: Evaluated value 'null' is not of type component\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 1111&quot;,
+[&quot;timestamp&quot;]=1601915760.000000,},
+[64.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_02', first pass&quot;,
+[&quot;timestamp&quot;]=1601696616.000000,},
+[292.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0x3078819: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:1684d9cc&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601925511.000000,},
+[65.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 02h 46m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601696617.000000,},
+[290.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: GetComponentName(): Failed to retrieve component information for component 0&quot;,
+[&quot;timestamp&quot;]=1601924604.000000,},
+[19.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_NPC_Killed&lt;inst:228dc672&gt;: Error evaluating &lt;event_object_destroyed&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601713725.000000,},
+[302.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601938606.000000,},
+[77.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_NPC_Killed&lt;inst:88eede&gt;: Error evaluating &lt;event_object_destroyed&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601691298.000000,},
+[298.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.FactionLogic.XenonFactionLogic_Manager.Ship_Construction_Manager.Process_Ships: Property lookup failed: $ShipToBuild.jobmainzone.cluster\
+* $ShipToBuild.jobmainzone == null\
+* Expression: if @$ShipToBuild.jobcommander.cluster then $ShipToBuild.jobcommander.cluster else $ShipToBuild.jobmainzone.cluster\
+* Action: &lt;set_value&gt;, line 144&quot;,
+[&quot;timestamp&quot;]=1601916705.000000,},
+[76.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_01', second pass&quot;,
+[&quot;timestamp&quot;]=1601691282.000000,},
+[310.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28dec39: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601956348.000000,},
+[79.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:88eedc&gt;: Error evaluating &lt;event_object_changed_attention&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601691298.000000,},
+[306.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_03', second pass&quot;,
+[&quot;timestamp&quot;]=1601956329.000000,},
+[78.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:88eedc&gt;: Error evaluating &lt;event_object_signalled&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601691298.000000,},
+[16.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_004', first pass&quot;,
+[&quot;timestamp&quot;]=1601713688.000000,},
+[73.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.supply on entity 0x880d7aa: Invalid attempt to convert ScriptValue null to datatype 'order'\
+* Action: &lt;edit_order_param&gt;, line 178&quot;,
+[&quot;timestamp&quot;]=1601699754.000000,},
+[314.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: aicontext&lt;move.generic,0x101940a&gt;: 46626.875: Not successfully reached the position in context zone Пустое пространство!\
+ ПДС Рейдерская группа Уж Рейдер is currently in zone Пустое пространство 0x28d8e9b,\
+ target zone: Пустое пространство 0x28d8e9b\
+ distance to last movement point: 15654m\
+ distance to destination: 126896m\
+ this position: position.[34639.675781m, -19.670542m, 31315.330078m]\
+ input destination: Ущелье Тарка VIII 0x28e3702\
+ input destination class: sector\
+ attention: ingalaxy&quot;,
+[&quot;timestamp&quot;]=1601959634.000000,},
+[72.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.supply on entity 0x880d7aa: Evaluated value 'null' is not of type order\
+* Expression: this.assignedcontrolled.order\
+* Action: &lt;edit_order_param&gt;, line 178&quot;,
+[&quot;timestamp&quot;]=1601699754.000000,},
+[229.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 01h 20m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601816023.000000,},
+[75.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 01h 44m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601691265.000000,},
+[231.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_010', first pass&quot;,
+[&quot;timestamp&quot;]=1601812762.000000,},
+[74.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_01', first pass&quot;,
+[&quot;timestamp&quot;]=1601691265.000000,},
+[17.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 06h 06m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601713689.000000,},
+[225.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052f86: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[59.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:188e83d&gt;: Error evaluating &lt;event_object_changed_attention&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601700536.000000,},
+[224.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052cf6: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[227.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1053021: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[226.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052edd: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[4.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'x4ep1_gamestart_tutorial' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601680541.000000,},
+[58.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:188e83d&gt;: Error evaluating &lt;event_object_signalled&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601700536.000000,},
+[239.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601821604.000000,},
+[238.000000]={
+[&quot;gamestart&quot;]=7.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601812704.000000,},
+[233.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_010', second pass&quot;,
+[&quot;timestamp&quot;]=1601812779.000000,},
+[15.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601687624.000000,},
+[57.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_NPC_Killed&lt;inst:188e847&gt;: Error evaluating &lt;event_object_destroyed&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601700536.000000,},
+[235.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:28f3465&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1601813473.000000,},
+[234.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\ui\\core\\xanark\\anarkviewbridge.cpp(100): Warning. The current frame was already updated without processing the update event. Check for errors in addon scripts issuing too many update calls.\
+(version: 3.30 - Code revision: 406216)&quot;,
+[&quot;timestamp&quot;]=1601813172.000000,},
+[244.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'quicksave', second pass&quot;,
+[&quot;timestamp&quot;]=1601935070.000000,},
+[56.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_03', second pass&quot;,
+[&quot;timestamp&quot;]=1601700518.000000,},
+[246.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:895766&gt;: Error evaluating &lt;event_object_signalled&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601935090.000000,},
+[247.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:895766&gt;: Error evaluating &lt;event_object_changed_attention&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601935090.000000,},
+[1.000000]={
+[&quot;gamestart&quot;]=1.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601679634.000000,},
+[63.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0xa014331: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:585cdca&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601702810.000000,},
+[241.000000]={
+[&quot;gamestart&quot;]=9.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601908733.000000,},
+[242.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'quicksave', first pass&quot;,
+[&quot;timestamp&quot;]=1601935053.000000,},
+[243.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 10h 00m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601935053.000000,},
+[62.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0x88d07ce: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:c00b673&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601701875.000000,},
+[253.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x2bb84: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601908830.000000,},
+[254.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x2baf8: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601908830.000000,},
+[255.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x2bb01: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601908830.000000,},
+[61.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: 202097392 АРГ Доставка медикаментов Курьер Защитник got stuck waiting for transition&quot;,
+[&quot;timestamp&quot;]=1601701746.000000,},
+[14.000000]={
+[&quot;gamestart&quot;]=2.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601680332.000000,},
+[250.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 03h 14m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601908799.000000,},
+[232.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 01h 30m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601812763.000000,},
+[251.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_003', second pass&quot;,
+[&quot;timestamp&quot;]=1601908815.000000,},
+[288.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_map.lua(10492): ConvertIntegerString(): Invalid argument #1 &lt;integer&gt; (got string, expected number)&quot;,
+[&quot;timestamp&quot;]=1601918136.000000,},
+[60.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_map.lua(10492): ConvertIntegerString(): Invalid argument #1 &lt;integer&gt; (got string, expected number)&quot;,
+[&quot;timestamp&quot;]=1601701373.000000,},
+[332.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: [XGfx::SCharacterBaseClass::AttachObject] failed finding node attachment_helper in actor assets\\characters\\argon\\heads\\char_arg_m_helmet_marine_01&quot;,
+[&quot;timestamp&quot;]=1601994970.000000,},
+[199.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x88ebf88: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[268.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0x24722: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:383fbf1&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601912634.000000,},
+[196.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x68eeca2: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[330.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: [ConversationManager::CancelConversation] There is no conversation&quot;,
+[&quot;timestamp&quot;]=1601992867.000000,},
+[197.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x18c0db8: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[280.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0x70d92e1: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:a854bae&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601917069.000000,},
+[194.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x10084ac: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[328.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601990236.000000,},
+[195.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x186287c: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[215.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x10943ab: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816145.000000,},
+[51.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\universe\\path\\splineflightcontrolmodel.cpp(139): Error: adding target flight points for an object (superhighway002_cluster_29_macro) that is not in a sector - collision avoidance will be skipped, but other problems may follow (@Matthias)\
+(version: 3.30 - Code revision: 406216)&quot;,
+[&quot;timestamp&quot;]=1601707358.000000,},
+[192.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x90fdc34: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[193.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x903f6ca: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[248.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: 9093692 СОП Сборщик минералов Тефида got stuck waiting for transition&quot;,
+[&quot;timestamp&quot;]=1601936891.000000,},
+[206.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x18bdea0: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[228.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_02', first pass&quot;,
+[&quot;timestamp&quot;]=1601816023.000000,},
+[207.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xa0ef389: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[204.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x18c45a1: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[50.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Widget system error. Failed to set initial selected column. Selected-column will not be changed. Error: specified column contains a non-selectable element and hence cannot be selected&quot;,
+[&quot;timestamp&quot;]=1601707305.000000,},
+[304.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_03', first pass&quot;,
+[&quot;timestamp&quot;]=1601956311.000000,},
+[205.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x18a5e70: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[324.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Controllable::CreateDynamicInterior() could not properly place dynamic interior with window - no connection with the tag 'window' could be found on object 'ПАР Пар. Торговая станция' (macro station_par_tradestation_base_01_macro, ID 207318)&quot;,
+[&quot;timestamp&quot;]=1601955400.000000,},
+[202.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x18c6c6c: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[300.000000]={
+[&quot;gamestart&quot;]=9.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601908741.000000,},
+[203.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x18c45b3: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[13.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_move_to_assignment_moving.PerformPath_Walk_Stuck_Check&lt;inst:8dc93c&gt;: 4535.905 NPC 0x20d93e9 was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1601686743.000000,},
+[49.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Formation::AddWingMan() - The specified controller is either already a wingman of a formation or is the (nesting) leader of this formation.&quot;,
+[&quot;timestamp&quot;]=1601707169.000000,},
+[296.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:190e8d27&gt;: Evaluated value 'null' is not of type component\
+* Expression: $NPC.roomslot.component\
+* Action: &lt;trigger_animation&gt;, line 2254&quot;,
+[&quot;timestamp&quot;]=1601928882.000000,},
+[201.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x80ec92b: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[260.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_welder_move_to_position.PerformPath_Walk_Stuck_Check&lt;inst:18e612f&gt;: 13361.885 NPC 0x18e2438 was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1601910642.000000,},
+[117.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xf8ede18: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[213.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1094387: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816145.000000,},
+[52.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_move_to_assignment_moving.PerformPath_Walk_Stuck_Check&lt;inst:108573fb&gt;: 24390.107 NPC 0x120c2d7b was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1601712241.000000,},
+[212.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x10943b8: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816145.000000,},
+[321.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\ui\\core\\xanark\\anarkviewbridge.cpp(100): Warning. The current frame was already updated without processing the update event. Check for errors in addon scripts issuing too many update calls.\
+(version: 3.30 - Code revision: 406216)&quot;,
+[&quot;timestamp&quot;]=1601954676.000000,},
+[48.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0xf053eee: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:120a7323&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601707102.000000,},
+[219.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052de1: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[214.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x10942e5: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816145.000000,},
+[240.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601821611.000000,},
+[209.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 02h 10m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601816116.000000,},
+[252.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x2baed: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601908830.000000,},
+[208.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_003', first pass&quot;,
+[&quot;timestamp&quot;]=1601816115.000000,},
+[200.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x80f964a: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[211.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1094335: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816145.000000,},
+[54.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_03', first pass&quot;,
+[&quot;timestamp&quot;]=1601700501.000000,},
+[210.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_003', second pass&quot;,
+[&quot;timestamp&quot;]=1601816131.000000,},
+[152.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_interactmenu.lua(2137): TruncateText(): Invalid argument #1 &lt;text&gt; (got nil, expected string)&quot;,
+[&quot;timestamp&quot;]=1601820911.000000,},
+[221.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052d68: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[41.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 04h 23m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601703246.000000,},
+[220.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x105305f: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[284.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:f0dad30&gt;: Property lookup failed: $TargetSector\
+* Expression: $TargetSector\
+* Action: &lt;run_actions&gt;, line 1426&quot;,
+[&quot;timestamp&quot;]=1601922436.000000,},
+[223.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052cf1: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[173.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28b5b1b: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[222.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052d30: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[308.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28e6b5d: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601956348.000000,},
+[217.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052f65: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[276.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script move.collect.ship.smallship on entity 0x70d92e1: collect_drop: Evaluated object 'Гриф Защитник' can not collect drop 'Контейнер'\
+* Expression: this.ship\
+* Action: &lt;collect_drop&gt;, line 154&quot;,
+[&quot;timestamp&quot;]=1601914337.000000,},
+[53.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0xf053eee: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:220b1602&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601712610.000000,},
+[160.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x20c13a7: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[12.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: Error while executing onEvent script for event: hideInteractMenu.\
+Errormessage: P:\\SVN\\temp\\menu_interactmenu.lua:4367: attempt to call field 'onTableMouseOut' (a nil value)&quot;,
+[&quot;timestamp&quot;]=1601686007.000000,},
+[327.000000]={
+[&quot;gamestart&quot;]=11.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601954535.000000,},
+[218.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052c8b: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[325.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: 287820 ПАР Торговец энергией Деметра Агрессор got stuck waiting for transition&quot;,
+[&quot;timestamp&quot;]=1601955681.000000,},
+[167.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xa0e50e7: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[323.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_Instantiation.PlaceManager&lt;inst:10cecc6&gt;: Manager 0x329db of 0x329d6 ПАР Пар. Торговая станция was not added to a dynamic interior.&quot;,
+[&quot;timestamp&quot;]=1601955400.000000,},
+[166.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xb0ef389: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[34.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_NPC_Killed&lt;inst:288da67&gt;: Error evaluating &lt;event_object_destroyed&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601712830.000000,},
+[165.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x283fdf8: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[335.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_despawn_moving.PerformPath_Walk_Stuck_Check&lt;inst:380474c&gt;: 65753.171 NPC 0x38b0f51 was stuck while walking on S Стандарт Стыковочный отсек&quot;,
+[&quot;timestamp&quot;]=1601997431.000000,},
+[164.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xa8e6bed: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[333.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_despawn_moving.PerformPath_Walk_Stuck_Check&lt;inst:380e8ba&gt;: 65374.268 NPC 0x381ccf5 was stuck while walking on room_arg_m_station_01_macro&quot;,
+[&quot;timestamp&quot;]=1601997052.000000,},
+[163.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28b3290: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[331.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:284a07d&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1601994542.000000,},
+[162.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xa8feda0: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[329.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0x827638 - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1601992314.000000,},
+[161.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x90dfb22: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[343.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:9042b69&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1602003834.000000,},
+[43.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: [XGfx::SCharacterBaseClass::AttachObject] failed finding node attachment_helper in actor assets\\characters\\argon\\heads\\char_arg_m_helmet_marine_01&quot;,
+[&quot;timestamp&quot;]=1601704973.000000,},
+[341.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0x784a325 - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1602002275.000000,},
+[175.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1852c68: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816588.000000,},
+[339.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0x40de10b - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1602002274.000000,},
+[174.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1846521: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816588.000000,},
+[337.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_ai_pilot_moving_to_post.PerformPath_Walk_Stuck_Check&lt;inst:70290f7&gt;: 69671.851 NPC 0x20488cb was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1602001437.000000,},
+[3.000000]={
+[&quot;gamestart&quot;]=2.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601680325.000000,},
+[351.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: C:\\dev\\p1_hotfix\\src\\X4\\ui\\core\\xanark\\anarkviewbridge.cpp(100): Warning. The current frame was already updated without processing the update event. Check for errors in addon scripts issuing too many update calls.\
+(version: 3.30 - Code revision: 406216)&quot;,
+[&quot;timestamp&quot;]=1601990426.000000,},
+[42.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_move_to_assignment_moving.PerformPath_Walk_Stuck_Check&lt;inst:c0cbb81&gt;: 15800.832 NPC 0x204dec3 was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1601703308.000000,},
+[349.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 17h 02m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601990315.000000,},
+[171.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x20bef63: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[347.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Attempting to create a NavigationController on an object that has been killed - skipping call. Don't put actions like &lt;set_flight_behaviour&gt; or &lt;set_avoid_collisions&gt; into a script's &lt;on_abort&gt; section, use the appropriate &lt;reset_foo&gt; action instead.&quot;,
+[&quot;timestamp&quot;]=1602004826.000000,},
+[170.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28353bc: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[345.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_move_to_assignment_moving.PerformPath_Walk_Stuck_Check&lt;inst:98db986&gt;: 72184.611 NPC 0x8006175 was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1602004268.000000,},
+[169.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x3083bde: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[11.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.supply on entity 0x609f0: Invalid attempt to convert ScriptValue null to datatype 'order'\
+* Action: &lt;edit_order_param&gt;, line 182&quot;,
+[&quot;timestamp&quot;]=1601685895.000000,},
+[168.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x283eb0d: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[156.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_001', second pass&quot;,
+[&quot;timestamp&quot;]=1601817739.000000,},
+[353.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script move.collect.ship.smallship on entity 0x1d750: collect_drop: Evaluated object 'Кайра Защитник' can not collect drop 'Контейнер с амуницией'\
+* Expression: this.ship\
+* Action: &lt;collect_drop&gt;, line 154&quot;,
+[&quot;timestamp&quot;]=1601991830.000000,},
+[182.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1802d44: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[355.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601990243.000000,},
+[183.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x205c9f1: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[216.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1052efc: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816146.000000,},
+[180.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x20cb80a: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[40.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0x188fd25d: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:c0df34e&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601713347.000000,},
+[181.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x98e0116: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[172.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28a628c: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[178.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x100fc13: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816588.000000,},
+[236.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0x22553: Evaluated component 0x8f53ce does not exist any more\
+* Expression: $destination\
+* Action: &lt;enable_collisions_between&gt;, line 1049&quot;,
+[&quot;timestamp&quot;]=1601814351.000000,},
+[179.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x98fdce3: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[47.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.Conversations.NPCAssigned_Transfer&lt;inst:f0a450a&gt;: Property lookup failed: $assignresult\
+* Expression: $assignresult\
+* Action: &lt;do_if&gt;, line 1055&quot;,
+[&quot;timestamp&quot;]=1601706654.000000,},
+[176.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x100425c: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816588.000000,},
+[188.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x205d4cc: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[177.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x181095e: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816588.000000,},
+[307.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x105ad7e: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601956348.000000,},
+[190.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x2054a75: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[39.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:288da5f&gt;: Error evaluating &lt;event_object_changed_attention&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601712830.000000,},
+[191.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x98fba47: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[184.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x2048080: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[46.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_welder_move_to_tool.PerformPath_Walk_Stuck_Check&lt;inst:130ff060&gt;: 18184.32 NPC 0x2888ee8 was stuck while walking on S Стандарт Стыковочный отсек&quot;,
+[&quot;timestamp&quot;]=1601705865.000000,},
+[185.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x200175a: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[189.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x1813877: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[138.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x50d31f8: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[186.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x20d9f2a: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[139.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x40ce8c8: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[187.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x20016e8: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816589.000000,},
+[128.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xa0fadba: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[45.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Invalid case. GetRelativeAimScreenPosition() was called without the player controlling anything atm. Aborting function call.&quot;,
+[&quot;timestamp&quot;]=1601703393.000000,},
+[265.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/(): (from presentation 'ui/core/presentations/targetsystem/targetsystem.bgf') GetMessageFromLua(): invalid Message ID (21881) or Message has been destroyed&quot;,
+[&quot;timestamp&quot;]=1601911447.000000,},
+[10.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.supply on entity 0x609f0: Evaluated value 'null' is not of type order\
+* Expression: this.assignedcontrolled.order\
+* Action: &lt;edit_order_param&gt;, line 182&quot;,
+[&quot;timestamp&quot;]=1601685895.000000,},
+[267.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_interactmenu.lua(2137): TruncateText(): Invalid argument #1 &lt;text&gt; (got nil, expected string)&quot;,
+[&quot;timestamp&quot;]=1601910382.000000,},
+[136.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x58d2eb5: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[269.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.supply on entity 0x17365: Evaluated value 'null' is not of type order\
+* Expression: this.assignedcontrolled.order\
+* Action: &lt;edit_order_param&gt;, line 178&quot;,
+[&quot;timestamp&quot;]=1601912696.000000,},
+[137.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x4012d88: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[271.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:50ef699&gt;: Evaluated value 'null' is not of type component\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 469&quot;,
+[&quot;timestamp&quot;]=1601912990.000000,},
+[44.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_move_to_assignment_moving.PerformPath_Walk_Stuck_Check&lt;inst:90d56b5&gt;: 17548.146 NPC 0x118ce98b was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1601705057.000000,},
+[32.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 06h 40m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601712792.000000,},
+[257.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Found a container without a faction: Запертый контейнер (UFG-062)&quot;,
+[&quot;timestamp&quot;]=1601909735.000000,},
+[259.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.X4Ep1_Mentor_Subscriptions.Phase_TheExperiment_Deliver_Fleet_Ref.UpdateBriefing&lt;inst:10effe8&gt;: Evaluated value 'null' is not a string\
+* Expression: $Text_ProgressBar\
+* Action: &lt;set_objective&gt;, line 555&quot;,
+[&quot;timestamp&quot;]=1601910248.000000,},
+[140.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x40a83bb: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[261.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:20ed358&gt;: Evaluated value 'null' is not of type component\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 469&quot;,
+[&quot;timestamp&quot;]=1601911265.000000,},
+[141.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x3018bd9: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[263.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:20ed358&gt;: Property lookup failed: $TargetSector\
+* Expression: $TargetSector\
+* Action: &lt;run_actions&gt;, line 1426&quot;,
+[&quot;timestamp&quot;]=1601911265.000000,},
+[142.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x50d22b8: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[281.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_move_to_assignment_moving.PerformPath_Walk_Stuck_Check&lt;inst:c87b568&gt;: 24499.505 NPC 0x100d17b2 was stuck while walking on Мостик&quot;,
+[&quot;timestamp&quot;]=1601922079.000000,},
+[143.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x408825e: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[283.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:f0dad30&gt;: Invalid space\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 469&quot;,
+[&quot;timestamp&quot;]=1601922436.000000,},
+[134.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x4054eaf: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[285.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_Destroy_Objects.GenerateNPCMission_Variant_1&lt;inst:f8eb210&gt;: Evaluated value 'null' is not of type component\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 1130&quot;,
+[&quot;timestamp&quot;]=1601922642.000000,},
+[129.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x38621e7: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[287.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.LIB_Generic.SectorDifficultyBalance: Property lookup failed: $MissionTargetSector.owner\
+* $MissionTargetSector == null\
+* Expression: $MissionTargetSector.owner\
+* Action: &lt;set_value&gt;, line 412&quot;,
+[&quot;timestamp&quot;]=1601911265.000000,},
+[130.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x38b1cd1: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[273.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:50ef699&gt;: Property lookup failed: $TargetSector\
+* Expression: $TargetSector\
+* Action: &lt;run_actions&gt;, line 1426&quot;,
+[&quot;timestamp&quot;]=1601912990.000000,},
+[131.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x280bf33: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[275.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.dock on entity 0x24722: Aborting order script in critical state (via &lt;abort_scripts&gt;, Context:md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:6896ae3&gt;)\
+* Action: &lt;abort_scripts&gt;, line 2264&quot;,
+[&quot;timestamp&quot;]=1601913727.000000,},
+[132.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x48d891c: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[277.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: SoundInstance::BE_SetupSourceVoice() alGenSources gave error 40961 AL_INVALID_NAME!&quot;,
+[&quot;timestamp&quot;]=1601915580.000000,},
+[133.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x3854753: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[279.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_Destroy_Objects.GenerateNPCMission_Variant_1&lt;inst:80c6494&gt;: Invalid space\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 1111&quot;,
+[&quot;timestamp&quot;]=1601915760.000000,},
+[295.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_State_Machines.ENTER_ai_pilot_leave_post&lt;inst:190e8d27&gt;: Property lookup failed: $NPC.roomslot.component\
+* $NPC.roomslot == null\
+* Expression: $NPC.roomslot.component\
+* Action: &lt;trigger_animation&gt;, line 2254&quot;,
+[&quot;timestamp&quot;]=1601928882.000000,},
+[293.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: 303933 СОП Торговец полуфабрикатами Гермес Защитник got stuck waiting for transition&quot;,
+[&quot;timestamp&quot;]=1601926384.000000,},
+[135.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x40345b0: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601817833.000000,},
+[9.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: aicontext&lt;move.generic,0x69a82&gt;: endzone is defined and positionspace is a sector but endzone is not in positionspace.&quot;,
+[&quot;timestamp&quot;]=1601685089.000000,},
+[291.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_despawn_moving.PerformPath_Walk_Stuck_Check&lt;inst:1282bb82&gt;: 27764.675 NPC 0x158ed537 was stuck while walking on M Стандарт Стыковочный отсек&quot;,
+[&quot;timestamp&quot;]=1601925440.000000,},
+[151.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.LIB_Generic.SectorDifficultyBalance: Property lookup failed: $MissionTargetSector.owner\
+* $MissionTargetSector == null\
+* Expression: $MissionTargetSector.owner\
+* Action: &lt;set_value&gt;, line 412&quot;,
+[&quot;timestamp&quot;]=1601819563.000000,},
+[289.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: IsInfoUnlockedForPlayer(): Failed to retrieve component with ID '0'&quot;,
+[&quot;timestamp&quot;]=1601924604.000000,},
+[150.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_Destroy_Objects.GenerateNPCMission_Variant_1&lt;inst:f0eb35f&gt;: Invalid space\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 1130&quot;,
+[&quot;timestamp&quot;]=1601819563.000000,},
+[303.000000]={
+[&quot;gamestart&quot;]=11.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601954528.000000,},
+[149.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_Destroy_Objects.GenerateNPCMission_Variant_1&lt;inst:f0eb35f&gt;: Evaluated value 'null' is not of type component\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 1130&quot;,
+[&quot;timestamp&quot;]=1601819563.000000,},
+[301.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601938599.000000,},
+[148.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0x50c0a57 - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1601819079.000000,},
+[299.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: 26166863 Кайра Защитник got stuck waiting for transition&quot;,
+[&quot;timestamp&quot;]=1601932431.000000,},
+[147.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0x58cfa97 - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1601819079.000000,},
+[297.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_move_to_assignment_moving.PerformPath_Walk_Stuck_Check&lt;inst:170ca360&gt;: 32286.594 NPC 0xd838314 was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1601930089.000000,},
+[146.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0x40bf1a2 - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1601819079.000000,},
+[311.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28dbc2a: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601956348.000000,},
+[145.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Formation::AddWingMan() - The specified controller is either already a wingman of a formation or is the (nesting) leader of this formation.&quot;,
+[&quot;timestamp&quot;]=1601818664.000000,},
+[309.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28b05d4: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601956348.000000,},
+[144.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script fight.attack.object.medium on entity 0xc0e16b9: Invalid attempt to convert ScriptValue null to datatype 'group'\
+* Action: &lt;apply_attackstrength&gt;, line 1624&quot;,
+[&quot;timestamp&quot;]=1601818326.000000,},
+[33.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_002', second pass&quot;,
+[&quot;timestamp&quot;]=1601712810.000000,},
+[159.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xa8dd65b: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816662.000000,},
+[305.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 12h 04m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601956311.000000,},
+[158.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x78ef16e: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816661.000000,},
+[319.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 11h 39m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601954625.000000,},
+[157.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x20a8454: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816661.000000,},
+[317.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_interactmenu.lua(2137): TruncateText(): Invalid argument #1 &lt;text&gt; (got nil, expected string)&quot;,
+[&quot;timestamp&quot;]=1601960635.000000,},
+[38.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:288da5f&gt;: Error evaluating &lt;event_object_signalled&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601712830.000000,},
+[315.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: *** aicontext&lt;move.generic,0x101940a&gt;: Orders:\
+ MoveWait&quot;,
+[&quot;timestamp&quot;]=1601959634.000000,},
+[155.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 02h 21m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601817723.000000,},
+[313.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script fight.attack.object.station on entity 0x28400e4: Invalid attempt to convert ScriptValue null to datatype 'group'\
+* Action: &lt;apply_attackstrength&gt;, line 894&quot;,
+[&quot;timestamp&quot;]=1601956414.000000,},
+[154.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_001', first pass&quot;,
+[&quot;timestamp&quot;]=1601817722.000000,},
+[264.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Context:md.NPC_State_Machines.ENTER_welder_move_to_position.PerformPath_Walk_Stuck_Check&lt;inst:20c17e6&gt;: 14094.727 NPC 0x28d104f was stuck while walking on Кокпит&quot;,
+[&quot;timestamp&quot;]=1601911375.000000,},
+[153.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.X4Ep1_War_Split.SPLIT_VS_ARG_Placement_Object_Destroyed: Property lookup failed: $DynamicInterior\
+* Expression: $DynamicInterior\
+* Action: &lt;do_if&gt;, line 121&quot;,
+[&quot;timestamp&quot;]=1601821014.000000,},
+[198.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x18bcc26: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601816497.000000,},
+[37.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:288da65&gt;: Error evaluating &lt;event_object_changed_attention&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601712830.000000,},
+[35.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_NPC_Killed&lt;inst:288da61&gt;: Error evaluating &lt;event_object_destroyed&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601712830.000000,},
+[8.000000]={
+[&quot;gamestart&quot;]=3.000000,
+[&quot;message&quot;]=&quot;Error: aicontext&lt;move.generic,0x643b5&gt;: endzone is defined and positionspace is a sector but endzone is not in positionspace.&quot;,
+[&quot;timestamp&quot;]=1601685075.000000,},
+[237.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: MissionObjective::ConvertToHint(): The player doesn't have a valid Room context! (objective: Назначение)&quot;,
+[&quot;timestamp&quot;]=1601815991.000000,},
+[116.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 03h 03m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601821366.000000,},
+[294.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: SaveList::TriggerUpdate() - We are already processing the savegame directory. Call will be skipped.&quot;,
+[&quot;timestamp&quot;]=1601920927.000000,},
+[55.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: - Saved in 3.30 (406216), game time = 0d 03h 39m, gamestart 'x4ep1_gamestart_tutorial' started in 3.30&quot;,
+[&quot;timestamp&quot;]=1601700502.000000,},
+[312.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0x28d7119: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601956348.000000,},
+[36.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_CheckForPlacement&lt;inst:288da65&gt;: Error evaluating &lt;event_object_signalled&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601712830.000000,},
+[316.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: *** aicontext&lt;move.generic,0x101940a&gt;: 1: MoveWait&quot;,
+[&quot;timestamp&quot;]=1601959634.000000,},
+[318.000000]={
+[&quot;gamestart&quot;]=12.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_003', first pass&quot;,
+[&quot;timestamp&quot;]=1601954625.000000,},
+[30.000000]={
+[&quot;gamestart&quot;]=4.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_003', second pass&quot;,
+[&quot;timestamp&quot;]=1601713467.000000,},
+[118.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xd8eb940: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[230.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'autosave_02', second pass&quot;,
+[&quot;timestamp&quot;]=1601816039.000000,},
+[336.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: D:/X4 Foundations/.../menu_interactmenu.lua(2137): TruncateText(): Invalid argument #1 &lt;text&gt; (got nil, expected string)&quot;,
+[&quot;timestamp&quot;]=1601998260.000000,},
+[262.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:20ed358&gt;: Invalid space\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 469&quot;,
+[&quot;timestamp&quot;]=1601911265.000000,},
+[119.000000]={
+[&quot;gamestart&quot;]=8.000000,
+[&quot;message&quot;]=&quot;Error: Error in AI script order.fight.escort on entity 0xf8b0efc: Evaluated value 'null' is not of type group\
+* Expression: @$fleetadmiral.$fleet&quot;,
+[&quot;timestamp&quot;]=1601821398.000000,},
+[340.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0x700ec5b - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1602002274.000000,},
+[272.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.GM_DeployInPlace.GenerateNPCMission_Variant_1&lt;inst:50ef699&gt;: Invalid space\
+* Expression: $Sector\
+* Action: &lt;find_object&gt;, line 469&quot;,
+[&quot;timestamp&quot;]=1601912990.000000,},
+[245.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Error: Error in MD cue md.NPC_Instantiation.PlaceNPC_NPC_Killed&lt;inst:895768&gt;: Error evaluating &lt;event_object_destroyed&gt; event object: Component 0x0 does not exist any more\
+* Expression: $NPC&quot;,
+[&quot;timestamp&quot;]=1601935090.000000,},
+[348.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_001', first pass&quot;,
+[&quot;timestamp&quot;]=1601990315.000000,},
+[112.000000]={
+[&quot;gamestart&quot;]=5.000000,
+[&quot;message&quot;]=&quot;Info: Starting new game using gamestart 'startmenu' in 3.30&quot;,
+[&quot;timestamp&quot;]=1601721309.000000,},
+[249.000000]={
+[&quot;gamestart&quot;]=10.000000,
+[&quot;message&quot;]=&quot;Info: Loading saved game 'save_003', first pass&quot;,
+[&quot;timestamp&quot;]=1601908798.000000,},
+[352.000000]={
+[&quot;gamestart&quot;]=13.000000,
+[&quot;message&quot;]=&quot;Error: When calling script masstraffic.watchdog on entity 0xfd0e8 - script parameter \&quot;target\&quot; was not provided!&quot;,
+[&quot;timestamp&quot;]=1601990749.000000,},
+[113.000000]={
+[&quot;gamestart&quot;]=6.000000,
+[&quot;message&quot;]=&quot;Info: 'GeForce GTX 1660' NVIDIA-driver v445.75.0 (Vulkan 1.1.126) check=1&quot;,
+[&quot;timestamp&quot;]=1601726332.000000,},},}
+
+__CORE_DETAILMONITOR_MAPFILTER = {
+[&quot;other_misc_missions&quot;]=true,
+[&quot;other_misc_crew&quot;]=true,
+[&quot;version&quot;]=16.000000,
+[&quot;think_alert&quot;]=3.000000,
+[&quot;other_misc_dockedships&quot;]=true,
+[&quot;other_misc_orderqueue&quot;]=true,
+[&quot;layer_build&quot;]=false,
+[&quot;trade_storage_liquid&quot;]=true,
+[&quot;trade_volume&quot;]=0.000000,
+[&quot;mining_resource_display&quot;]=true,
+[&quot;other_misc_ecliptic&quot;]=true,
+[&quot;trade_playeroffer_sell&quot;]=0.000000,
+[&quot;other_misc_allyorderqueue&quot;]=true,
+[&quot;layer_think&quot;]=true,
+[&quot;trade_storage_solid&quot;]=true,
+[&quot;trade_playeroffer_buy&quot;]=0.000000,
+[&quot;think_diplomacy_highlightvisitor&quot;]=true,
+[&quot;trade_storage_container&quot;]=true,
+[&quot;layer_fight&quot;]=false,
+[&quot;other_misc_opacity&quot;]=false,
+[&quot;other_misc_civilian&quot;]=true,
+[&quot;trade_relation_enemy&quot;]=true,
+[&quot;layer_diplo&quot;]=false,
+[&quot;layer_mining&quot;]=true,
+[&quot;think_diplomacy_factioncolor&quot;]=false,
+[&quot;trade_price_maxprice&quot;]=5000.000000,
+[&quot;other_misc_selection_lines&quot;]=true,
+[&quot;trade_offer_number&quot;]=5.000000,
+[&quot;other_misc_cargo&quot;]=true,
+[&quot;trade_wares&quot;]={
+[1.000000]=&quot;weaponcomponents&quot;,
+[2.000000]=&quot;shieldcomponents&quot;,
+[3.000000]=&quot;hullparts&quot;,
+[4.000000]=&quot;advancedelectronics&quot;,},
+[&quot;other_misc_workforce&quot;]=true,
+[&quot;other_misc_wrecks&quot;]=true,
+[&quot;other_misc_gate_connections&quot;]=true,
+[&quot;layer_other&quot;]=true,
+[&quot;layer_trade&quot;]=true,}
+__CORE_DETAILMONITOR_USERQUESTION = {
+[&quot;version&quot;]=1.000000,
+[&quot;transporter&quot;]=true,}
+
+__CORE_GAMEOPTIONS_RESTOREINFO = {
+[&quot;questionParameter&quot;]={
+[&quot;waitforgfx&quot;]=true,
+[&quot;callback&quot;]=&quot;callbackGfxFullscreenConfirm&quot;,
+[&quot;question&quot;]=&quot;Сохранить настройки?&quot;,
+[&quot;timer&quot;]=15.900000,
+[&quot;negCallback&quot;]=&quot;callbackGfxFullscreenCancel&quot;,},
+[&quot;oldfullscreen&quot;]=true,
+[&quot;history&quot;]={},
+[&quot;oldborderless&quot;]=false,}
+</data>
+</uidata>
