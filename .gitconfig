@@ -1,8 +1,11 @@
-[alias]
-	tree = log --graph --decorate --pretty=oneline --abbrev-commit
-	list = log --graph --decorate --pretty=format:'%C(yellow)%h %Cred%ad %Cblue%an%Cgreen%d %Creset%s' --date=relative
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
 [user]
-	name = Dmytro Cheusov
-	email = d.cheusov@abona-erp.com
-[core]
-	editor = notepad++.exe
+	name = dcheva
+	email = dmitry.cheva@gmail.com
+[alias]
+tree  = log --graph --abbrev-commit --decorate --format=format:'%C(bold grey)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all
+files = log --name-status --full-diff --all
