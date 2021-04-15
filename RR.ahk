@@ -3,8 +3,6 @@
 
 ;reload
 $^+R::Reload
-;reload
-$NumpadIns::Reload
 ;suspend/resume
 $^+S::Suspend, toggle
 
@@ -69,9 +67,6 @@ $^Numpad0::
 }
 return
 
-$Numpad5::6
-$Numpad6::Y
-$NumpadAdd::Z
 $Space::
 	Send, {Space}
 	Send, {Numpad0 Up}
