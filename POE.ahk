@@ -1,40 +1,20 @@
-; by Cheva (c) 2017-2020
-; POE keys
-
+;-) by Cheva (c) 2017-2021
+;-) POE keys
+            
 ;reload
 $^+R::Reload
-;reload
-;suspend/resume
-$^+S::Suspend, toggle
 
-;-) set counter please
-CNT := 0
+$1:: 
+  Send, 1
+  Send, 2
+  Send, 3
+  Send, 4
+  Send, 5
 
-;-) reset BACKSPACE
-BS := false
-
-;-) and check if BS triggered
-$Backspace::
-	if(BS) {
-		BS := false
-	}
-	else {
-		BS := true
-	}
-return
-
-$RButton::
-    if(BS) {
-	{					
-		SendInput {RButton Down}
-		While Getkeystate("RButton","P")
-		{
-			Sleep, 800
-		}
-		SendInput {RButton Up}
-		SendInput {LControl Down}
-		SendInput {T}
-		SendInput {LControl Up}
-	}
-    }
-return
+RButton::
+  Send, 1
+  Send, 2
+  Send, 3
+  Send, 4
+  Send, 5
+  Send, {RButton}
