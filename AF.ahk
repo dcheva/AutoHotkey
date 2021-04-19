@@ -8,7 +8,4 @@ $^+S::Suspend, toggle
 $q::G
 $w::H
 $e::T
-
-;$a::1
-;$s::2
-;$d::3
+$d::F
