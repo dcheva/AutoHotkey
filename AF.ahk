@@ -17,4 +17,5 @@ $r::
   Send F
   Send S
   Send {Space}
+  Send T
 return
