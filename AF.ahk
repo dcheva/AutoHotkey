@@ -12,9 +12,3 @@ $e::T
 ;$a::1
 ;$s::2
 ;$d::3
-
-$r::
-  Send F
-  Send S
-  Send {Space}
-return
